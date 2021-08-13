@@ -1,0 +1,84 @@
+.me .me-img img {
+  height: 190px;
+  border-radius: 50%;
+}
+
+.me .me-name p {
+  font-size: 27px;
+}
+
+.me .me-name button {
+  height: 30px;
+  margin-top: 5px;
+  outline: none;
+  border: 2px solid #ebebeb;
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+
+.me .me-name button:active,
+.me .me-name .settings:active {
+  opacity: 0.7;
+}
+
+.me .me-name .settings,
+.me .me-name button {
+  margin-top: 8px;
+}
+
+.me .me-name {
+  margin-left: 10px;
+}
+
+.me .me-name p,
+.me-name button {
+  margin-right: 15px;
+}
+
+.me .followers p {
+  cursor: pointer;
+}
+
+.me .followers p:active {
+  opacity: 0.7;
+}
+
+.me .kolaj img {
+  height: 380px;
+}
+
+.me .app-google img {
+  width: 135px;
+  height: auto;
+}
+
+.me .kolaj {
+  display: flex;
+  margin: 5px 60px 60px 60px;
+}
+
+.me .kolaj .kolaj-write {
+  height: 380px;
+  text-align: center;
+  width: 700px;
+  background-color: white;
+  padding-top: 140px;
+}
+
+.me .tag p {
+  padding: 0px 60px 0px 60px;
+  cursor: pointer;
+}
+
+.me .tag p:active {
+  opacity: 0.7;
+}
+
+.me .foot p {
+  padding: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.me .foot p:active {
+  opacity: 0.7;
+}

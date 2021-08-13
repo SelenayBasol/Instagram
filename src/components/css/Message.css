@@ -1,0 +1,60 @@
+.directmessage {
+  margin: 0px 37px 0px 65px;
+  height: 650px;
+  background-color: white;
+}
+
+.mymessage .dm {
+  display: flex;
+}
+
+.mymessage .dm h6 {
+  margin-left: 80px;
+  margin-top: 3px;
+  font-size: 17px;
+}
+.mymessage .dm svg:active {
+  opacity: 0.7;
+}
+
+.mymessage .sender img {
+  height: 60px;
+  display: block;
+  margin-top: 20px;
+}
+
+.mymessage .talk p,
+.mymessage .talk h6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.mymessage .send {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.mymessage button {
+  width: auto;
+  margin-top: 10px;
+  margin-left: 240px;
+  outline: none;
+  border: 2px solid #0095f6;
+  background-color: #0095f6;
+  border-radius: 5px;
+  color: white;
+}
+
+.mymessage button:active {
+  opacity: 0.7;
+}
+
+.mymessage .scroll {
+  height: 550px;
+  overflow-x: hidden;
+}
+.mymessage .mes h6 {
+  margin: 35px 0px 0px 5px;
+}

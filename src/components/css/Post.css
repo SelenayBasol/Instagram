@@ -1,0 +1,59 @@
+.post {
+  max-height: 900px;
+  margin-top: 30px !important;
+  max-width: 600px;
+  border: 1px solid #cecdcd;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.post .pp img {
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post .pp {
+  display: flex;
+  margin: 5px 0px 10px 10px;
+}
+
+.post .pp h6 {
+  margin-top: 15px;
+}
+
+.post .post-img img {
+  max-height: 500px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.post .post-likes {
+  display: flex;
+}
+
+.post .post-likes img {
+  height: 25px;
+}
+
+.post .post-likes h6 {
+  padding-top: 3px;
+}
+
+.post .post-caption,
+.post .post-comments {
+  display: flex;
+  margin-left: 15px;
+}
+
+.post .post-caption p,
+.post .post-comments p {
+  margin-left: 5px;
+  margin-top: -2px;
+}
+
+.all,
+.post .post-comments {
+  margin-top: -15px;
+}

@@ -1,0 +1,12 @@
+.story {
+  height: 105px;
+  margin-top: 30px;
+  max-width: 600px;
+  border: 1px solid #cecdcd;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.kaydir {
+  overflow-x: hidden;
+}
